@@ -15,7 +15,7 @@ adiabatic_machines_arn= { "dwave_advantage":"arn:aws:braket:::device/qpu/d-wave/
                 "dwave_dw2000":"arn:aws:braket:::device/qpu/d-wave/DW_2000Q_6"}
 
 
-s3_folder = ("amazon-braket-7c2f2fa45286", "api")  # Use the S3 bucket you created during onboarding
+s3_folder = ("PUT_YOUR_BUCKET", "api")  # Use the S3 bucket you created during onboarding
 
 
 app = Flask(__name__)
